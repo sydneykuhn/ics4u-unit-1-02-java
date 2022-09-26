@@ -47,7 +47,7 @@ final class Energy {
         */
         try {
             // Convert string to integer
-            final double userInput = Integer.valueOf(userInputString);
+            final double userInput = Float.valueOf(userInputString);
 
             // Calculations
             final double energy = userInput * Math.pow(SPEED_OF_LIGHT, 2);
